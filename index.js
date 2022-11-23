@@ -1,8 +1,10 @@
-
-function divide(num1,num2) {
+let a = 3
+let b = 4
+let x = 2
+function divide() {
    return 2000/100;
 }
-const square =(parameter2) => parameter2*parameter2;
-square(2);
-const add = (parameter1, parameter2) => parameter1 + parameter2;
-add(3,5); 
+const square =(x) => x*x;
+square();
+const add = (a, b) => a + b;
+add(a,b); 
